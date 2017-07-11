@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SashCo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" href="main2.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body ng-app="myApp" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<h3 id="arrow"><a id="scrollDown" href="#section2"><img src="images/arrow.png"></a></h3>
+
+    <div ng-controller="mainController" id="section1" class="container-fluid">
+        <button class="mainMenu" ng-click=" menu =!menu"><div class="hr">
+                <hr>
+                <hr>
+                <hr>
+            </div></button>
+        <div id="menu" ng-show="menu">
+            <ul>
+                <li><a ng-click="menu = !menu" href="#section2">About Me</a></li>
+                <li><a ng-click="menu = !menu" href="#sectionExp">My Experience</a></li>
+                <li><a ng-click="menu = !menu" href="#sectionStrong">Why Me?</a></li>
+                <li><a ng-click="menu = !menu" href="#section3">Timeline</a></li>
+                <li><a ng-click="menu = !menu" href="#section4">Life In Pictures</a></li>
+                <li><a ng-click="menu = !menu" href="#section5">Contact Me</a></li>
+                
+            </ul>
+            <button ng-click="menu = false" type="button" class="close-button"></button>
+        </div>
+
+
+
+        <div class="logo">
+            <div class="logoname">
+                <h1>SASHA</h1>
+                <h1>GOLOV</h1>
+                <h1>KOVA</h1>
+            </div>
+
+        </div>
+
+        <div id="inspire">
+            <h3>Inspire And Be Insired</h3>
+        </div>
+
+        <h3 id="arrow"><a id="scrollDown" href="#section2"><img src="images/arrow.png"></a></h3>
+    </div>
+
+
+
+    <div id="section2" class="container-fluid">
+
+
+        <div class="meSection2">
+           
+            <img src="images/me10.png">
+            <h1>FULL STACK WEB DEVELOPER | UX / UI </h1>
+            <button class="resumeButton" data-toggle="modal" data-target="#Resume">Click to See My Resume</button>
+            <div class="modal fade" id="Resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog2" role="document">
+                    <div class="modal-content2">
+                        <div class="modal-header2">
+                        
+                            <h4 class="modal-title2" id="myModalLabel">My Resume</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <h1>Oleksandra Golokova</h1>
+                            <h2>ogolovkova1993@gmail.com</h2>
+                            <h2>(309) 550 3587</h2>
+                            <h2>Chicago, Il</h2>
+
+                            <div class="row">
+
+                                <div class="col-xs-8">
+
+                                    <h3>PROFESSIONAL AND LEADERSHIP EXPERIENCE </h3>
+                                    <hr>
+                                    <h4 class="firma">Coding Temple ( Bootcamp ) </h4>
+                                    <h4 class="gde">Front-End Web Developer</h4>
+                                    <h4 class="gde">Chicago, IL</h4>
+
+                                    <ul>
+                                        <li>Wireframe and redesign developed client E-commerce application using HTML5, CSS3, Python, SQL, Bootsrap UI, Django & Braintree API</li>
+                                        <li>Participating in various hands-on projects to produce web applications and a final capstone project</li>
+                                        <li>Developed Web Forms using Python</li>
+                                        <li>Designed a client website wireframe and layout</li>
+                                        <li>Developed a SQL Database</li>
+                                        <li>Experience working on project to produce web applications and e-commerce applications</li>
+                                        <li>Created interactions from scratch using wireframe development</li>
+                                        <li>Designed the technical architecture to form of business layer, and UI Pages.</li>
+                                    </ul>
+
+
+                                    <h4 class="firma">Martin Kids (Online store)</h4>
+                                    <h4 class="gde">Full-Stack Web Developer/UX Designer</h4>
+                                    <h4 class="gde">Chicago, IL</h4>
+                                    <ul>
+                                        <li>Developed Full-Stack web application from scratch using HTML5, CSS, JavaScript, Angular JS, SQL, and Python</li>
+                                        <li>Wireframe and design the Martin Kids web application</li>
+                                        <li>Created a database from MySQL using excel files and developing a API using Django REST framework</li>
+                                        <li>Created API using Django REST framework that calls Angular JS and JavaScript to web application</li>
+                                        <li>Enhanced user interface design by implementing CSS3, Bootstrap UI, JavaScript and Jquery</li>
+                                        <li>Develop a web application that is mobile friendly and tablets</li>
+                                        <li>Creating a payment system and shopping cart using Braintree</li>
+                                        API.
+                                    </ul>
+
+
+                                    <h4 class="firma">Sky Center Express Inc ( Truck company)</h4>
+                                    <h4 class="gde">Logistics Analyst</h4>
+                                    <h4 class="gde">Chicago, Il</h4>
+                                    <ul>
+                                        <li>In charge of hiring and leading a team to complete projects</li>
+                                        <li>Analyzing data to help company improve delivery process</li>
+                                        <li>Frequently assisted the marketing team with efforts on advertising to target audience</li>
+                                    </ul>
+
+                                    <h4 class="firma">Red Cross (Non-profit organization)</h4>
+                                    <h4 class="gde">Volunteer</h4>
+                                    <h4 class="gde">Kiev, Ukraine</h4>
+                                    <ul>
+                                        <li>Provided secondary medical assistance in field hospital</li>
+                                        <li>Aided in medical aide during the Revolution</li>
+                                        <li>Allocated medical, food and clothing donations between several facilities</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-xs-4">
+                                    <h3>TECHNICAL SKILLS</h3>
+                                    <hr>
+                                    <h4 class="gde">Languages & Frameworks</h4>
+                                    HTML5, CSS3, JavaScript, CSS3, jQuery, AngularJS, Python, SaSS
+
+                                    <h4 class="gde">Technologies</h4>
+                                    Bootstrap UI, UX, Web Forms, API, Braintree API, Ajax, UNIX
+
+                                    <h4 class="gde">Database:</h4>
+                                    SQL Server Management Studio 2014, Django REST framework, Django, MySQL, PostgreSQL
+
+                                    <h4 class="gde">Tools</h4>
+                                    Brackets, SQL Server Management Studios, GitHub, Google Developer Tools, Adobe Photoshop, Adobe illustrator, Anaconda, PyCharm
+
+                                    <h4 class="gde">Software</h4>
+                                    Microsoft Office Suite (Excel, PowerPoint, Word), Adobe Photoshop CC/Elements
+
+                                    <h3>LANGUAGES</h3>
+                                    <hr> ENGLISH RUSSIAN UKRAINIAN
+
+                                    <h3>STRENGTHS </h3>
+                                    <hr> Hard-Working Self-Motivated Leadership Communication Flexible Positive Motivated
+
+
+                                    <h3>EDUCATION </h3>
+                                    <hr>
+                                    <p>Coding Temple</p>
+                                    Full-Stack Web Development August 2016 – June 2016
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row aboutme">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-2">
+                <h1>Languages &amp; Framework</h1>
+                <hr>
+                <h2>HTML5, CSS3, JavaScript, CSS3, jQuery, AngularJS, Python, SaSS</h2>
+            </div>
+            <div class="col-xs-2">
+                <h1>Technologies</h1>
+                <hr>
+                <h2>Bootstrap UI, UX, Web Forms, API, Braintree API, Ajax, UNIX</h2>
+            </div>
+            <div class="col-xs-2">
+                <h1>Database</h1>
+                <hr>
+                <h2>SQL Server Management Studio 2014, Django REST framework, Django, MySQL, PostgreSQL</h2>
+            </div>
+            <div class="col-xs-2">
+                <h1>Tools</h1>
+                <hr>
+                <h2>Brackets, SQL Server Management Studios, GitHub, Google Developer Tools, Adobe Photoshop, Adobe illustrator, Anaconda, PyCharm</h2>
+            </div>
+            <div class="col-xs-2">
+                <h1>Software</h1>
+                <hr>
+                <h2>Microsoft Office Suite (Excel, PowerPoint, Word), Adobe Photoshop CC/Elements</h2>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+        <h3 id="arrow"><a id="scrollDown" href="#section2"><img src="images/arrow.png"></a></h3>
+
+    </div>
+
+    <div id="sectionExp" class="container-fluid">
+
+
+
+
+        <p id="exp">My Expirience</p>
+
+        <div class="meSectionExp">
+
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="martin-kids/1.jpg" alt="Los Angeles" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/2.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/4.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/5.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/6.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/7.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="martin-kids/3.jpg" alt="New york" style="width:100%;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="martin row">
+                <div class="col-xs-4">
+                    <h2>Websites from scratch</h2>
+                    <hr>
+                    <!--    <p>Developed Full-Stack web application from scratch using HTML5, CSS, JavaScript, Angular JS, SQL, and Python. Wireframe and design the Martin Kids web application</p>-->
+                    <p>Having a penchant for creating websites completely from nothing, I am proficient in the major front-end technologies and frameworks including: HTML5, CSS3, Sass, Bootstrap v3, JavaScript, jQuery and AngularJS. Allowing for web apps to be more well-rounded, I employ the projects that cater to the CRUD/REST principles with Python/Django.</p>
+                </div>
+                <div class="col-xs-4">
+                    <h2>UX/UI Specialization</h2>
+                    <hr>
+                    <p>I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.</p>
+
+                </div>
+                <div class="col-xs-4">
+                    <h2>Database Management</h2>
+                    <hr>
+                    <!--<p>Created a database from MySQL using excel files and developing a API using Django REST framework. Created API using Django REST framework that calls Angular JS and JavaScript to web application</p>-->
+                    <p>No web app is complete without a database. With experience working in PostgreSQL and MySQL, I have built databases from the ground-up with 100% custom code. While a challenging task, I hate to be that person who doesn't meet that challenge head-on.</p>
+                </div>
+            </div>
+
+            <!--<div class="notLaunch">! Unfortunatly, my Web Site has not been launched yet, but you can see the code on my <a href="gitHub">GitHub</a> account !</div>-->
+            <div class="notLaunch">! With my current project under construction, you can view my code on my <a href="gitHub">GitHub</a> account !</div>
+        </div>
+
+
+    </div>
+
+    <div id="sectionStrong" class="container-fluid">
+
+
+
+
+        <div id="strongS">
+            <!--
+           <div class="center-outer">
+            <div class="center-inner">
+
+                <div class="bubbles">
+                    <h5>Why Me?</h5>
+                </div>
+
+            </div>
+        </div>
+-->
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/learning.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Fast-learning</h1>
+                            <p>When I first came to the USA 3 years ago, my English hardly allowed me to speak about basic needs.So  I managed to learn English by myself. Now not only  I speak  fluently, I went even further by learning totally new career.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/working.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Hard-working</h1>
+                            <p>Due to the difficult economic situation in Ukraine, I started to work quite early. I have tried many different jobs and it taught me to work hard and efficiently manage my time. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/motivated.png">
+                        </div>
+                        <div class="col-xs-8">
+                            <h1>Self-motivated</h1>
+                            <p>I have an older sister, and since I was kid I had this competitive spirit, so I knew I should run faster, jump higher and dive deeper. That feeling still exists inside of me, I always need to improve myself, not for another people, but for myself.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/creative.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Creative</h1>
+                            <p>There are thousands of ideas in my head. Now, doing web-developing it's time to implement them and make the World unique.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/team.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Team work</h1>
+                            <p>As I changed many jobs, I have experience in working with very different personalities. It's important to be independent but it is also important to be able to listen and understand people around you. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/flexible.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Flexible</h1>
+                            <p>I believe that any problem has many  solutions. So it's always a way to manage situation in a different way, to find a compromise and avoid conflicts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/comunication.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Sociability</h1>
+                            <p>I used to work as a bartender for more than a year, and I think it's the best arena for learning to communicate. I have met so many  people of different ages, professions and views. And I realized, that communication is  also an understanding of intentions, emotions and thoughts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/leader.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Leadership</h1>
+                            <p>From my own experience I truly realized that being a leader doesn't mean controlling. It means leading, helping and taking responsibility. And I have trait in me.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-4">
+                    <div class="strongSingle row">
+                        <div class="col-xs-4"><img src="strongs/positive.png"></div>
+                        <div class="col-xs-8">
+                            <h1>Positive</h1>
+                            <p>There were many changes in my life. Many ups and downs. But all these things didn't didn't break me. It made me stronger. I learned to smile even through the hard times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="section3" class="container-fluid">
+
+        <h1 class="lsh">Long Story Short</h1>
+
+        <div class="timeline-container" id="timeline-1">
+
+
+
+            <div class="timeline-header">
+                <h3 class="timeline-header__subtitle">“The two most important days in your life are the day you are born and the day you find out why.” <br> - Mark Twain </h3>
+            </div>
+
+
+            <div class="timeline">
+                <div class="timeline-item" data-text="HELLO WORLD">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/chbw.jpeg" />
+                        <h2 class="timeline__content-title">1993</h2>
+                        <div class="timeline__content-desc">
+                            <div>I was born 24 years ago. My mother was keeping a diary at that time, and here is the entry from that day (This was translated from Russian, so forgive the English translation): "At 4:45 AM our "sister" was born. From the very first gaze I understood, that her name should be very ringing and free like a mountain stream. Like lightning. Like mountains. I think she would probably love mountains...". My mum decided to call me Aleksandra. It's really weird, but in Ukraine the short name for Aleksandra is Sasha. Yes, I know, nothing in common. :)</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text="FIRST SCHOOL">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/schoolbw.jpg" />
+                        <h2 class="timeline__content-title">1998-2009</h2>
+                        <div class="timeline__content-desc">
+                            <div>
+                                Since childhood, I was more interested in math. I realized that it was impossible to become a humanist in family full of physicists. I was very fidgety, so I could never sit still. By the time I finished my secondary education, I had to change 4 schools during the process. I realized that I have to be in constant motion to explore, seek and change the things around me. Life intrigues me and so do all the possibilities it bring. Be brave! Be thirsty! Be alive!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-text="REVOLUTION">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/revolutionbw.jpg" />
+                        <h2 class="timeline__content-title">2013-2014</h2>
+                        <div class="timeline__content-desc">
+
+
+                            <div> It might seem strange, but a political revolution happening in my country became one of the most life-changing moments for me. It changed me, as well as millions of other peoples' lives. It taught me how to be principled, honest and strong. I learned to take care of other people and set priorities for what is important. The Revolution reminded me that the most important thing in life is to maintain our humanity. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text="HEY THE USA">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/USAbw.jpg" />
+                        <h2 class="timeline__content-title">2014</h2>
+                        <div class="timeline__content-desc"> After those events I decided that I want to make my country a better place, although I was aware that I had neither the knowledge nor experience. As a real Russian spy (don't worry, not a real one), I decided to gain my experience from the most developed country in the world &ndash; the United States. While my trip was trying, I get to experience changes, difficulty and challenges which, to this day, has made me stronger.</div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text="MARRIDGE">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/wedding2bw.jpg" />
+                        <h2 class="timeline__content-title">2014</h2>
+                        <div class="timeline__content-desc">
+                            <div>Six years ago at the end of Skydiving Season, I finally met him.</div>
+                            <div> Two years ago we got married. </div>
+                            <div>In-between there was a lot of: breakups, long distance, first kisses and other unforgettable moments.</div>
+                            <div>True love conquers all and with it, we overcame all trials.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-text="MY FIRST WEB SITE">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/myweb.jpg" />
+                        <h2 class="timeline__content-title">2017</h2>
+                        <div class="timeline__content-desc">
+                            From the first "Hello World" that appeared on my screen I was so inspired and so impressed that I felt like I was the creator of a new world. Of course, this was just a beginning. I can't count on one hand how many times my husband has seen me talking to my computer and jumping to the ceiling from happiness after a few hours of figuring out how to solve a function. When I finally made a complete website by myself from scratch, I realized that nothing was in vain.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-text="TRAVELING ">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/travelingbw.jpg" />
+                        <h2 class="timeline__content-title">1993 - ... </h2>
+                        <div class="timeline__content-desc">My parents say my first time going camping was when I was 2 years old. I was strapped to my mother's back while my father also had a backpack. On that trip, I first saw real mountains and immediately fall in love. You can take everything from me, but traveling will always be in my heart.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-text="FAMILY">
+                    <div class="timeline__content"><img class="timeline__img" src="timeline/familybw.jpg" />
+                        <h2 class="timeline__content-title">FOREVER</h2>
+                        <div class="timeline__content-desc">My family is huge. I have 2 sisters and 3 brothers, with the best parents in the world. They taught me how to make bonfires, play the guitar, rollerblade and windsurf. Having so many siblings, you could never be bored or sad. No matter how many miles set us apart we are still close. We are one whole.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="section4" class="container-fluid">
+
+        <h1>Life In Pictures</h1>
+        <hr>
+        <div class="allLIP">
+            <div class="row LIP">
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/1.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#1">Hitchhiking in Ukraine| 2010</button></div>
+                    </div>
+
+                    <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel"> After two months of hitchhiking in Crimea, I realized that it is the best way to discover new countries and meet new people.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/1.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/2.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#2">Salt Lake City | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel"> There are husbands who offer to their wives luxury cars and expensive jewelry; my husband gives me unforgettable emotions. </h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/2.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/3.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#3">Kiev | Revolution | 2014</button></div>
+                    </div>
+
+                    <div class="modal fade" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">During the revolution in Ukraine, I used to help not only people with whom I fought, but also people against whom I fought. Because it is not important who is in front of you - your friend or your enemy - first of all, it is a human who needs your help.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/3.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/4.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#4">Salt Lake | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Just imagine, there is nothing around you, but blue sky and white salt... It was a trip not to another state, but to another world.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/4.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/5.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#5">Family | Forever And Ever !</button></div>
+                    </div>
+
+                    <div class="modal fade" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">I think this photo doesn't requires any description – it is absolutely clear that with such siblings I am the happiest person! </h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/5.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/6.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#6">New York| 2014</button></div>
+                    </div>
+
+                    <div class="modal fade" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Everyone in Ukraine has a dream to visit the US. And everyone in the US dreams about going to NY. So, the first place I came after arriving in the States was New York: big love in the Big Apple. </h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/6.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row LIP">
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/7.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#7">Wedding| 2014</button></div>
+                    </div>
+
+                    <div class="modal fade" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">All challenges become easier when you have a person who you can lean on.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/7.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/8.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#8">Halloween | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">There are many Sashas inside me. One of them is riding a horse in wild prairies.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/8.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/9.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#9">Cover for ukrainian magazine | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Being a woman does not mean being weak and cowardly; just as fighting for your rights doesn’t mean forgetting that you are a woman.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/9.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/10.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#10">Skydive Chicago | 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">When your husband is a skydiver, you cannot say, “I am afraid”. You say, “I dive”.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/10.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/11.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#11">Grand Canyon | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Sometimes, rough rocks can be much better than a soft bed!</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/11.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/12.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#12">Lake Shore| 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">To run, to jump, to bike or to roll – whatever, as long as I go forward!</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/12.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row LIP">
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/13.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#13">Photoshoot| 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">One of my favorite things about photoshoots is that you can turn into anyone you want. For one day, I became Alice in Wonderland. </h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/13.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/14.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#14">New pet| 2014</button></div>
+                    </div>
+
+                    <div class="modal fade" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Cats, snakes, rats and ferrets – my best roommates ever</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/14.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/15.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#15">Colorado| 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">I'm from Ukraine! We can sleep on snow :)</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/15.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/16.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#16">Florida| 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">It would be possible to make a whole issue of National Geographic with the photos from my travels.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/16.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/17.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#17">Wisconsin | 2014</button></div>
+                    </div>
+
+                    <div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">I could cross the whole Earth, and I would not find better friends.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/17.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/18.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#18">Chicago| 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">It’s difficult to say which sport I like the most. It’s even more difficult to choose one I don’t like!</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/18.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row LIP">
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/19.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#19">Wisconsin | 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">19) “Fifteen men on a dead man's chest Yo ho ho and a bottle of rum”
+                                        </h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/19.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/20.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#20">Olympic National Park | 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">"I’ve proven it all to myself many times, So stop your debates, I beseech, And to me, the one thing that is better than heights, Is the height that nobody has reached!" Vladimir Vysotsky</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/20.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/21.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#21">Plympic National Park| 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Endless happiness on the endless ocean beach…</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/21.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/22.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#22">Las Vegas| 2017</button></div>
+                    </div>
+
+                    <div class="modal fade" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">22) Las Vegas is a very nice place for vacations… As long as you don’t gamble.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/22.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/23.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#23">Olympic National Park| 2015</button></div>
+                    </div>
+
+                    <div class="modal fade" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">Life can never be perfect, but the moment can be.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/23.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-2 container">
+                    <img src="LIP/24.jpg" alt="Avatar">
+                    <div class="middle">
+                        <div class="text"><button data-toggle="modal" data-target="#24">Chicago| 2016</button></div>
+                    </div>
+
+                    <div class="modal fade" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header row">
+
+                                    <div class="col-xs-10">
+                                        <h4 class="modal-title" id="myModalLabel">In every city I have my favorite spot. In Chicago, I have already found one.</h4>
+                                    </div>
+                                    <div class=" col-xs-2 outer " data-dismiss="modal" aria-label="Close">
+                                        <div class="inner">
+                                            <label>close</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="LIP/24.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div id="section5" class="container-fluid">
+
+        <nav class="social">
+            <ul>
+                <li><a href="https://github.com/SashaSasha1993">GitHub <i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/aleksandra.golovkova.5">Facebook <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/oleksandra-golovkova-6705b1143/">LinkedIn <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/sashka_sashka_sashka">Instagram <i class="fa fa-instagram"></i></a></li>
+
+            </ul>
+        </nav>
+
+        <h2>Created By</h2>
+
+        <h1>
+            <em>G</em>
+            <em class="planet left">O</em>
+            <em>L</em>
+            <em>O</em>
+            <em>V</em>
+            <em>K</em>
+            <em class="planet right">O</em>
+            <em>V</em>
+            <em>A</em>
+        </h1>
+
+
+
+
+        <h3>Phone: (309) 550 3587 | Email:<a href="mailto:ogolovkova1993@gmail.com">ogolovkova1993@gmail.com</a> </h3>
+
+    </div>
+
+
+    <!--SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT SCRIPT -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+
+
+</body>
+
+</html>
